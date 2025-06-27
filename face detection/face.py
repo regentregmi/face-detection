@@ -27,6 +27,7 @@ class FaceDetectorApp:
         )
 
         # GUI elements
+        
         self.canvas = tk.Canvas(root, width=640, height=480)
         self.canvas.pack(pady=10)
 
