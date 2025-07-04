@@ -35,7 +35,7 @@ class FaceDetectorApp:
         self.label_count.pack(pady=5)
 
         self.button_frame = tk.Frame(root)
-        self.button_frame.pack(pady=10)
+        self.button_frame.pack(pady=0)
 
         self.btn_webcam = tk.Button(self.button_frame, text="Start Webcam", command=self.start_webcam, font=("Arial", 10))
         self.btn_webcam.pack(side=tk.LEFT, padx=5)
