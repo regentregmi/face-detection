@@ -26,7 +26,7 @@ class FaceDetectorApp:
             "res10_300x300_ssd_iter_140000.caffemodel"
         )
 
-        # GUI elements
+        # GUI element
         
         self.canvas = tk.Canvas(root, width=640, height=480)
         self.canvas.pack(pady=10)
