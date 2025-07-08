@@ -7,6 +7,7 @@ import os
 import threading
 
 class FaceDetectorApp:
+    
     def __init__(self, root):
         self.root = root
         self.root.title("Smart Face Detector App")
