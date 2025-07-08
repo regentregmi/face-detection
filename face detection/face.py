@@ -13,6 +13,7 @@ class FaceDetectorApp:
         self.root.geometry("800x600")
 
         # Initialize variables
+        
         self.cap = None
         self.is_running = False
         self.frame = None
