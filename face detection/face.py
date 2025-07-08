@@ -22,6 +22,7 @@ class FaceDetectorApp:
         os.makedirs(self.save_dir, exist_ok=True)
 
         # Load DNN model
+        
         self.net = cv2.dnn.readNetFromCaffe(
             "deploy.prototxt",
             "res10_300x300_ssd_iter_140000.caffemodel"
